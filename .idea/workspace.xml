@@ -34,14 +34,14 @@
           <entry key="Dockerfile" value="6" />
           <entry key="ini" value="14" />
           <entry key="json" value="1" />
-          <entry key="php" value="20367" />
+          <entry key="php" value="20368" />
           <entry key="txt" value="1" />
           <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="8449" />
+          <entry key="Blade" value="8450" />
           <entry key="Dockerfile" value="6" />
           <entry key="Ini" value="14" />
           <entry key="JSON" value="1" />
@@ -98,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/resources/views/contrato/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="1454" column="44" selection-start-line="1454" selection-start-column="44" selection-end-line="1454" selection-end-column="44" />
+            <state relative-caret-position="295">
+              <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#18;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#18;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -578,12 +578,12 @@
       <workItem from="1556210115708" duration="540000" />
       <workItem from="1556220393646" duration="4856000" />
       <workItem from="1556232540750" duration="29656000" />
-      <workItem from="1556306836391" duration="2803000" />
+      <workItem from="1556306836391" duration="3120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144300000" />
+    <option name="totallyTimeSpent" value="144617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="0" />
@@ -986,8 +986,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/views/contrato/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="1454" column="44" selection-start-line="1454" selection-start-column="44" selection-end-line="1454" selection-end-column="44" />
+        <state relative-caret-position="295">
+          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#18;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#18;n#body#0;n#html#0;n#!!top" expanded="true" />

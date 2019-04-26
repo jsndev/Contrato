@@ -62,7 +62,7 @@
 
         .athos-font {
             font-family: 'Helvetica';
-            font-size: 11pt;
+            font-size: 10pt;
             font-weight: 400;
             line-height: 1.5 !important;
         }
