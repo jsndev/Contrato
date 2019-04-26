@@ -1452,7 +1452,7 @@
 
 <div class="row">
     <div class="col col-lg-12">
-        <table class="table table-bordered table-condensed table-assinatura text-left">
+        <table class="table table-borderless table-condensed table-assinatura text-left">
             <tbody>
             @php
                 foreach ($assinaturaVendedores as $key => $vendedor){
