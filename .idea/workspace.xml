@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9892addd-0893-480e-96ca-2a5c2fb352a0" name="Default Changelist" comment="" />
+    <list default="true" id="9892addd-0893-480e-96ca-2a5c2fb352a0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdocker/php-fpm/php-ini-overrides.ini" beforeDir="false" afterPath="$PROJECT_DIR$/phpdocker/php-fpm/php-ini-overrides.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/contrato/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/contrato/index.blade.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,20 +34,20 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="6" />
-          <entry key="ini" value="3" />
+          <entry key="ini" value="14" />
           <entry key="json" value="1" />
-          <entry key="php" value="20141" />
+          <entry key="php" value="20191" />
           <entry key="txt" value="1" />
           <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="8248" />
+          <entry key="Blade" value="8287" />
           <entry key="Dockerfile" value="6" />
-          <entry key="Ini" value="3" />
+          <entry key="Ini" value="14" />
           <entry key="JSON" value="1" />
-          <entry key="PHP" value="11893" />
+          <entry key="PHP" value="11904" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="YAML" value="3" />
         </counts>
@@ -53,26 +57,28 @@
           <entry key="Dockerfile" value="3" />
           <entry key="conf" value="2" />
           <entry key="config" value="1" />
-          <entry key="env" value="3" />
+          <entry key="css" value="1" />
+          <entry key="env" value="4" />
           <entry key="html" value="1" />
-          <entry key="ini" value="2" />
+          <entry key="ini" value="3" />
           <entry key="json" value="1" />
           <entry key="lock" value="2" />
           <entry key="md" value="1" />
           <entry key="php" value="248" />
-          <entry key="png" value="2" />
+          <entry key="png" value="3" />
           <entry key="txt" value="2" />
           <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key=".env file" value="3" />
+          <entry key=".env file" value="4" />
           <entry key="Blade" value="82" />
+          <entry key="CSS" value="1" />
           <entry key="Dockerfile" value="3" />
           <entry key="HTML" value="1" />
-          <entry key="Image" value="2" />
-          <entry key="Ini" value="2" />
+          <entry key="Image" value="3" />
+          <entry key="Ini" value="3" />
           <entry key="JSON" value="3" />
           <entry key="Markdown" value="1" />
           <entry key="PHP" value="166" />
@@ -93,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/views/contrato/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="1694" column="63" selection-start-line="1694" selection-start-column="63" selection-end-line="1694" selection-end-column="63" />
+            <state relative-caret-position="75">
+              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#17;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#17;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -111,29 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/Financiador.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="84" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/views/contrato/vendedores/fisica/casados.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="17" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/Contrato/ContratoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+            <state relative-caret-position="15">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
               <folding>
                 <element signature="e#48#68#0#PHP" expanded="true" />
               </folding>
@@ -142,10 +130,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/public/image/formula.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpdocker/php-fpm/php-ini-overrides.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/VendedorPessoaFisica.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="332">
+              <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding>
                 <element signature="e#23#43#0#PHP" expanded="true" />
               </folding>
@@ -169,8 +180,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>recursis</find>
-      <find>versa</find>
       <find>versao</find>
       <find>comversa</find>
       <find>cod</find>
@@ -199,16 +208,20 @@
       <find>getNomeFinanciado</find>
       <find>NOME_CONTC</find>
       <find>table-ass</find>
+      <find>for</find>
+      <find>Apartamento/Casa</find>
     </findStrings>
     <replaceStrings>
       <replace>$this-&gt;</replace>
       <replace>$afiliacaoProponente</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/app/Http/Middleware/CarregarPropostaMiddleware.php" />
         <option value="$PROJECT_DIR$/src/app/ProponenteConjugePacto.php" />
         <option value="$PROJECT_DIR$/src/app/Bairro.php" />
         <option value="$PROJECT_DIR$/src/app/Municipio.php" />
@@ -256,8 +269,9 @@
         <option value="$PROJECT_DIR$/src/resources/views/contrato/vendedores/fisica/casados.blade.php" />
         <option value="$PROJECT_DIR$/src/resources/views/contrato/vendedores/fisica/doravente.blade.php" />
         <option value="$PROJECT_DIR$/src/app/Proposta.php" />
-        <option value="$PROJECT_DIR$/src/resources/views/contrato/index.blade.php" />
         <option value="$PROJECT_DIR$/src/app/VendedorPessoaFisica.php" />
+        <option value="$PROJECT_DIR$/phpdocker/php-fpm/php-ini-overrides.ini" />
+        <option value="$PROJECT_DIR$/src/resources/views/contrato/index.blade.php" />
         <option value="$PROJECT_DIR$/src/app/Http/Controllers/Contrato/ContratoController.php" />
       </list>
     </option>
@@ -364,6 +378,7 @@
     <option name="width" value="1440" />
     <option name="height" value="821" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -447,6 +462,13 @@
               <item name="contrato" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="contrato" type="b2602c69:ProjectViewProjectNode" />
+              <item name="contrato" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -488,31 +510,6 @@
               <item name="contrato" type="462c0819:PsiDirectoryNode" />
               <item name="vendedores" type="462c0819:PsiDirectoryNode" />
               <item name="fisica" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contrato" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contrato" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="contrato" type="462c0819:PsiDirectoryNode" />
-              <item name="vendedores" type="462c0819:PsiDirectoryNode" />
-              <item name="juridica" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contrato" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="contrato" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
-            </path>
-            <path>
-              <item name="contrato" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="standard" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -572,12 +569,12 @@
       <workItem from="1556145484449" duration="729000" />
       <workItem from="1556210115708" duration="540000" />
       <workItem from="1556220393646" duration="4856000" />
-      <workItem from="1556232540750" duration="25981000" />
+      <workItem from="1556232540750" duration="28491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137822000" />
+    <option name="totallyTimeSpent" value="140332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="0" />
@@ -595,8 +592,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32921812" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="12" weight="0.32921812" />
       <window_info anchor="bottom" id="File Transfer" order="13" weight="0.32921812" />
@@ -638,27 +635,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpdocker/php-fpm/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3405">
-          <caret line="227" column="47" selection-start-line="227" selection-start-column="47" selection-end-line="227" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -892,9 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/image/Captura de Tela 2019-04-25 às 23.19.22.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/views/contrato/vendedores/juridica/com-versao.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -937,13 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/views/contrato/vendedores/fisica/casados.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -961,6 +927,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/image/formula.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpdocker/php-fpm/php-ini-overrides.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/VendedorPessoaFisica.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="e#23#43#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/views/contrato/vendedores/fisica/casados.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/Financiador.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -970,8 +973,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/views/contrato/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="1694" column="63" selection-start-line="1694" selection-start-column="63" selection-end-line="1694" selection-end-column="63" />
+        <state relative-caret-position="75">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
           <folding>
             <element signature="n#style#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#17;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#17;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -987,20 +990,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/VendedorPessoaFisica.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding>
-            <element signature="e#23#43#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/Contrato/ContratoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+        <state relative-caret-position="15">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding>
             <element signature="e#48#68#0#PHP" expanded="true" />
           </folding>
