@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/.env" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Bairro.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/ContasFgts.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/CredorQuitante.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Exceptions/Handler.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Http/Controllers/Contrato/BaseController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Http/Controllers/Contrato/ContratoController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Http/Kernel.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Http/Middleware/CarregarPropostaMiddleware.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Imovel.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/IntvQuitante.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/ListaDeNomes.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Logradouro.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Municipio.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Nacionalidade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Participante.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Procurador.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Proponente.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/ProponenteConjuge.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/ProponenteConjugePacto.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Proposta.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/RetornoFgts.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Socio.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/UsuarioAthos.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Utils/Utils.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Vendedor.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/VendedorPessoaFisica.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/VendedorPessoaFisicaConjuge.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/VendedorPessoaFisicaConjugePacto.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/VendedorPessoaJuridica.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/composer.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/config/app.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/config/database.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/public/index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/resources/views/contrato/financiador.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/resources/views/contrato/index.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/resources/views/contrato/proponentes.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/resources/views/contrato/vendedores/fisica/casados.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/resources/views/contrato/vendedores/fisica/doravente.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/resources/views/contrato/vendedores/fisica/solteiro.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/resources/views/contrato/vendedores/fisica/uniao-estavel.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/resources/views/contrato/vendedores/juridica/com-versao.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/resources/views/contrato/vendedores/juridica/procurador.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/resources/views/contrato/vendedores/juridica/representante.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/resources/views/contrato/vendedores/juridica/sem-versao.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/resources/views/contrato/vendedores/juridica/socio.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/routes/web.php" charset="UTF-8" />
+  </component>
+</project>

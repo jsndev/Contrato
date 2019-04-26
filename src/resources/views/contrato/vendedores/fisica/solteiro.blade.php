@@ -1,0 +1,2 @@
+<b>{{ $vendedor->nomeVendedor }}</b>, {{ $vendedor->nacionalidadeVendedor }}, {{ $vendedor->profissaoVendedor }}, {{ $vendedor->afiliacaoVendedor ? $vendedor->afiliacaoVendedor .',' : '' }} {{ $vendedor->estadoCivilVendedor }}{{ $vendedor->maiorIdade }}, portador da carteira de identidade RG nº {{ $vendedor->numeroRgVendedor }}, emitido por {{ $vendedor->emissaoRgVendedor }} em
+{{ $vendedor->dataEmissaoRgVendedor }}, inscrito no CPF/MF sob n° {{ $vendedor->cpfVendedor }}, residente e domiciliada {{ $vendedor->endereco }}, com o endereço eletrônico {{ $vendedor->email }};

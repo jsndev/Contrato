@@ -1,0 +1,5 @@
+<b>{{ $vendedor->nomeVendedor }}</b>, {{ $vendedor->nacionalidadeVendedor }}, {{ $vendedor->profissaoVendedor }}, {{ $vendedor->afiliacaoVendedor ? $vendedor->afiliacaoVendedor .',' : '' }} {{ $vendedor->estadoCivilVendedor }}{{ $vendedor->maiorIdade }}, portador da carteira de identidade RG nº {{ $vendedor->numeroRgVendedor }}, emitido por {{ $vendedor->emissaoRgVendedor }} em
+{{ $vendedor->dataEmissaoRgVendedor }}, inscrito no CPF/MF sob n° {{ $vendedor->cpfVendedor }} e <b>{{ $vendedor->nomeVendedorConjuge }}</b>,
+{{ $vendedor->nacionalidadeVendedorConjuge }}, {{ $vendedor->profissaoVendedorConjuge }}, {{ $vendedor->afiliacaoVendedorConjuge ? $vendedor->afiliacaoVendedorConjuge . ',' : '' }} {{ $vendedor->estadoCivilVendedorConjuge }},
+portadores da cateiras de identidade RG n° {{ $vendedor->numeroRgVendedorConjuge }}, emitido por {{ $vendedor->emissaoRgVendedorConjuge }} em {{ $vendedor->dataEmissaoRgVendedorConjuge }}, inscrito no
+CPF/MF sob n° {{ $vendedor->cpfVendedorConjuge }}, {{ $vendedor->comunhaoBens }}, residentes e domiciliados {{ $vendedor->endereco }}, com o endereço eletrônico {{ $vendedor->email }};
