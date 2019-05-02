@@ -89,39 +89,39 @@ class ContratoController extends BaseController {
                 "valorPremioAnual" => Utils::formatarMoeda($this->proposta->getValorPremioAnual()),
                 "dataContrato" => $this->proposta->getDataContratoExtenso(),
             ],
-            "assinaturaVendedores" => $this->getVendedoresAssinatura()
+            "assinaturas" => $this->getAssinaturas()
         ];
     }
 
-    private function getVendedoresAssinatura() {
-        $vendedores = [];
+    private function getAssinaturas() {
+        $assinaturas = [];
+
+
+        array_push($assinaturas,"CAIXA DE PREVIDÊNCIA DOS FUNCIONÁRIOS DO BANCO DO BRASIL");
+        array_push($assinaturas, $this->proponente->getNome());
+
+        if ($this->proponente->isCasadoUniaoEstavel()) {
+            array_push($assinaturas, $this->proponenteConjuge->getNome());
+        }
 
         foreach ($this->vendedor->getTodosVendedores() as $key => $vend ):
             $this->vendedorPessoaFisica->get($vend->COD_VEND);
             $this->vendedorPessoaFisicaConjuge->get($vend->COD_VEND);
 
             if ($this->vendedor->isJuridica()) {
-                array_push($vendedores,
-                    $this->vendedor->getNome($key) . ' - ' . $this->vendedorPessoaJuridica->getCnpj()
-                );
+                array_push($assinaturas, $this->vendedor->getNome($key));
             } else {
                 if ($this->vendedorPessoaFisica->isCasadoUniaoEstavel()) {
 
-                    array_push($vendedores,
-                        $this->vendedor->getNome($key) . ' - ' . $this->vendedorPessoaFisica->getCpf()
-                    );
-                    array_push($vendedores,
-                        $this->vendedorPessoaFisicaConjuge->getNome() . ' - ' . $this->vendedorPessoaFisicaConjuge->getCpf()
-                    );
+                    array_push($assinaturas, $this->vendedor->getNome($key));
+                    array_push($assinaturas, $this->vendedorPessoaFisicaConjuge->getNome());
                 } else {
-                    array_push($vendedores,
-                        $this->vendedor->getNome($key) . ' - ' . $this->vendedorPessoaFisica->getCpf()
-                    );
+                    array_push($assinaturas, $this->vendedor->getNome($key));
                 }
             }
         endforeach;
-
-        return $vendedores;
+        //dd(array_chunk($assinaturas, 5));
+        return array_chunk($assinaturas, 5);
 
     }
 
