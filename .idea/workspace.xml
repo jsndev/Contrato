@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9892addd-0893-480e-96ca-2a5c2fb352a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/Contrato/ContratoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/Contrato/ContratoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/image/formula.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/image/top.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/views/contrato/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/contrato/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/views/contrato/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="806" column="36" selection-start-line="806" selection-start-column="36" selection-end-line="806" selection-end-column="36" />
+            <state relative-caret-position="376">
+              <caret line="819" column="19" selection-start-line="819" selection-start-column="19" selection-end-line="819" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -37,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/Contrato/ContratoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="103" column="74" selection-start-line="103" selection-start-column="74" selection-end-line="103" selection-end-column="74" />
+            <state relative-caret-position="420">
+              <caret line="125" column="42" selection-start-line="125" selection-start-column="42" selection-end-line="125" selection-end-column="42" />
               <folding>
                 <element signature="e#48#68#0#PHP" expanded="true" />
               </folding>
@@ -456,12 +453,12 @@
       <workItem from="1556232540750" duration="29656000" />
       <workItem from="1556306836391" duration="3120000" />
       <workItem from="1556804917458" duration="648000" />
-      <workItem from="1556806893247" duration="16734000" />
+      <workItem from="1556806893247" duration="17128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161999000" />
+    <option name="totallyTimeSpent" value="162393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -480,7 +477,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.049099836" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.049099836" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="12" weight="0.32921812" />
       <window_info anchor="bottom" id="File Transfer" order="13" weight="0.32921812" />
@@ -835,8 +832,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/views/contrato/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="806" column="36" selection-start-line="806" selection-start-column="36" selection-end-line="806" selection-end-column="36" />
+        <state relative-caret-position="376">
+          <caret line="819" column="19" selection-start-line="819" selection-start-column="19" selection-end-line="819" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -848,8 +845,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/Contrato/ContratoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="103" column="74" selection-start-line="103" selection-start-column="74" selection-end-line="103" selection-end-column="74" />
+        <state relative-caret-position="420">
+          <caret line="125" column="42" selection-start-line="125" selection-start-column="42" selection-end-line="125" selection-end-column="42" />
           <folding>
             <element signature="e#48#68#0#PHP" expanded="true" />
           </folding>

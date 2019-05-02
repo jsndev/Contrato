@@ -102,6 +102,8 @@ class ContratoController extends BaseController {
 
         if ($this->proponente->isCasadoUniaoEstavel()) {
             array_push($assinaturas, $this->proponenteConjuge->getNome());
+            array_push($assinaturas, $this->proponenteConjuge->getNome());
+            array_push($assinaturas, $this->proponenteConjuge->getNome());
         }
 
         foreach ($this->vendedor->getTodosVendedores() as $key => $vend ):
@@ -121,7 +123,7 @@ class ContratoController extends BaseController {
             }
         endforeach;
         //dd(array_chunk($assinaturas, 5));
-        return array_chunk($assinaturas, 5);
+        return array_chunk($assinaturas, 6);
 
     }
 

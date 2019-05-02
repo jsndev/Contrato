@@ -789,7 +789,6 @@
                 echo '<tr><td></td></tr>';
                 echo '<tr><td></td></tr>';
                 echo '<tr><td></td></tr>';
-                echo '<tr><td></td></tr>';
                 echo '<tr>';
                 echo '<td style="padding-bottom: 0;"><u>__________________________________________________________</u></td>';
                 echo '</tr>';
@@ -804,7 +803,7 @@
 
 @php
 
-    if (count(end($assinaturas)) > 3) {
+    if (count(end($assinaturas)) > 4) {
         echo '<div class="page-break"></div>';
         echo '<div class="row">';
             echo '<div class="col col-lg-12">';
@@ -819,9 +818,6 @@
     <div class="col col-lg-12">
         <table class="table table-bordered table-condensed table-assinatura text-left">
             <tbody>
-            <tr><td><b></b></td><td><b></b></td></tr>
-            <tr><td><b></b></td><td><b></b></td></tr>
-            <tr><td><b></b></td><td><b></b></td></tr>
             <tr><td><b></b></td><td><b></b></td></tr>
             <tr><td><b></b></td><td><b></b></td></tr>
             <tr><td><b></b></td><td><b></b></td></tr>
