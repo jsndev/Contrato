@@ -782,7 +782,7 @@
         }
         echo '<div class="row">';
         echo '<div class="col col-lg-12">';
-        echo '<table class="table table-bordered table-condensed table-assinatura text-left">';
+        echo '<table class="table table-borderless  table-condensed table-assinatura text-left">';
         echo '<tbody>';
 
             foreach ($assinaturas[$x] as $key => $participante){
@@ -816,7 +816,7 @@
 @endphp
 <div class="row">
     <div class="col col-lg-12">
-        <table class="table table-bordered table-condensed table-assinatura text-left">
+        <table class="table table-borderless  table-condensed table-assinatura text-left">
             <tbody>
             <tr><td><b></b></td><td><b></b></td></tr>
             <tr><td><b></b></td><td><b></b></td></tr>
