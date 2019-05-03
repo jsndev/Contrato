@@ -25,6 +25,7 @@ use App\Proposta;
 use App\RetornoFgts;
 use App\Socio;
 use App\Utils\Utils;
+use App\Utils\WorkData;
 use App\Vendedor;
 use App\VendedorPessoaFisica;
 use App\VendedorPessoaFisicaConjuge;
@@ -52,8 +53,10 @@ class BaseController extends Controller {
     protected $contasFgts;
     protected $listaDeNomes;
     protected $retornoFgts;
+    protected $workData;
 
     public function __construct(Request $request,
+                                WorkData $workData,
                                 Proponente $proponente,
                                 ProponenteConjuge $proponenteConjuge,
                                 Nacionalidade $nacionalidade,
@@ -73,6 +76,7 @@ class BaseController extends Controller {
                                 RetornoFgts $retornoFgts
 
         ) {
+        $this->workData = $workData;
         $this->proponente = $proponente;
         $this->vendedor = $vendedor;
         $this->proponenteConjuge = $proponenteConjuge;

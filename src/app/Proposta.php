@@ -38,15 +38,12 @@ class Proposta extends Model {
     }
 
     public function getDataContratoExtenso(){
-
         if (is_null($this->entity->DTASSCONTRATO_PPST)) {
-            return "--";
+            $date = new DateTime();
+            return $date->format('d-m-Y');
         } else {
-            setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
-            date_default_timezone_set('America/Sao_Paulo');
-            return strftime('%A, %d de %B de %Y', strtotime($this->entity->DTASSCONTRATO_PPST));
+            $date = new DateTime($this->entity->DTASSCONTRATO_PPST);
+            return $date->format('d-m-Y');
         }
-
-
     }
 }

@@ -762,7 +762,7 @@
             E, por estarem assim justos e contratados, assinam o presente em 03 (três) vias de igual teor e valor, na presença de
             02 (duas) testemunhas.
         </p>
-        <p class="athos-font text-right">Rio de janeiro {{ $contrato->dataContrato }}</p>
+        <p class="athos-font text-right">Rio de Janeiro/RJ {{ $contrato->dataContrato }}</p>
 
     </div>
 </div>

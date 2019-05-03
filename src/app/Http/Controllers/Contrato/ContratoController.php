@@ -8,7 +8,6 @@ use Barryvdh\DomPDF\Facade as PDF;
 
 class ContratoController extends BaseController {
     public function index() {
-
         $pdf = PDF::setOptions([
             'dpi' => 150,
             'defaultFont' => 'courier',
@@ -87,7 +86,7 @@ class ContratoController extends BaseController {
                 "prazoFinal" => $this->listaDeNomes->getPrazoFinal($this->proponente->getNumeroContrato()),
                 "primeiroPagamento" => Utils::formatarMoeda($this->listaDeNomes->getValorPrimeiroPagamento()),
                 "valorPremioAnual" => Utils::formatarMoeda($this->proposta->getValorPremioAnual()),
-                "dataContrato" => $this->proposta->getDataContratoExtenso(),
+                "dataContrato" => $this->workData->DataExtenso($this->proposta->getDataContratoExtenso()),
             ],
             "assinaturas" => $this->getAssinaturas()
         ];
